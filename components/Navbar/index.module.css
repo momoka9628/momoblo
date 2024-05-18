@@ -1,0 +1,81 @@
+.active {
+  background-color: rgba(85, 0, 255, 0.07);
+}
+
+.nav {
+  display: flex;
+  /* Homeとその他メニューに間をあける */
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(47, 53, 107, 0.614);
+  position: sticky;
+  top: 0;
+}
+
+.navTitle {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  font-weight: bold;
+}
+
+.navMenues {
+  display: flex;
+}
+
+.navMenu {
+  list-style: none;
+  display: block;
+  padding: 10px;
+  margin: 0px 10px;
+  border-radius: 3px;
+}
+
+.navMenu:not(.active):hover {
+  background-color: rgba(85, 0, 255, 0.18);
+}
+
+.ham {
+  display: none;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+}
+
+.hamBar {
+  height: 0.4rem;
+  width: 100%;
+  background-color: black;
+  border-radius: 0.2rem;
+}
+
+@media(max-width: 640px) {
+  .ham {
+    display: flex;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navMenues {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0.25rem;
+  }
+
+  .navMenu {
+    width: 100%;
+    text-align: center;
+    margin: 0px !important;
+  }
+
+  .open {
+    display: flex;
+  }
+}

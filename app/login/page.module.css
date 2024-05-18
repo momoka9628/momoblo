@@ -1,0 +1,44 @@
+.main {
+  width: 60%;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 24px
+}
+
+.label {
+  padding-top: 10px;
+}
+
+.input {
+  width: 80%;
+  border-radius: 5px;
+  padding: 3px;
+  border: 1px solid #888;
+}
+
+.button {
+  margin-top: 10px;
+  display: block;
+  border-radius: 2px;
+  padding: 5px 10px;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  box-shadow: 2px 2px rgb(0, 0, 255, 0.2);
+}
+
+.button:hover {
+  box-shadow: none;
+}
+
+@media(max-width: 640px) {
+  .container {
+    display: block;
+  }
+
+  .main {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

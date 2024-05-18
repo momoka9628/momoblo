@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+}
+
+.main {
+  width: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+@media(max-width: 640px) {
+  .container {
+    display: block;
+  }
+
+  .main {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

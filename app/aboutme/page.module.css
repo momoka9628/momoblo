@@ -1,0 +1,30 @@
+.main {
+  width: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 24px
+}
+
+.imageCircle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid 2px #888;
+  background-size: 160%;
+  background-position: 40% 30%;
+  background-repeat: no-repeat;
+  background-image: url("/gogo.jpg");
+}
+
+
+@media(max-width: 640px) {
+  .container {
+    display: block;
+  }
+
+  .main {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

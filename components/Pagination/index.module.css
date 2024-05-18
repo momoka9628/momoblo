@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  margin-top: 24px;
+  clear: both;
+}
+.list {
+  margin: 0 4px;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--border-radius);
+}
+.current {
+  background-color: var(--color-current);
+}

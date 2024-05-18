@@ -1,0 +1,18 @@
+.listWrap {
+  width: 80%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.tag {
+  background-color: var(--color-bg-sub);
+  padding: 4px 8px;
+  border-radius: var(--border-radius);
+  white-space: nowrap;
+}
+
+@media (maxwidth: 640px) {
+  .listWrap {
+    width: 100%;
+  }
+}

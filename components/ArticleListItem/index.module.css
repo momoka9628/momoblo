@@ -1,0 +1,36 @@
+.list {
+  margin: 10px;
+  border: 1px solid;
+  width: calc(100%/2 - 20px);
+  float: left;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.content {
+  margin-left: 10px;
+}
+
+@media (max-width: 640px) {
+  .list {
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .title {
+    font-size: 1.4rem;
+  }
+}
